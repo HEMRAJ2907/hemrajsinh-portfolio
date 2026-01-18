@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Hemrajsinh Suratiya</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2d3e50;
+            --secondary: #4a90e2;
+            --text-dark: #333;
+            --text-light: #666;
+            --bg-light: #f4f7f6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #525659;
+            color: var(--text-dark);
+            line-height: 1.5;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .page {
+            background: white;
+            width: 210mm;
+            min-height: 297mm;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        /* Header */
+        header {
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .header-left h1 {
+            font-size: 28px;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .header-left h2 {
+            font-size: 16px;
+            color: var(--secondary);
+            font-weight: 500;
+        }
+
+        .contact-info {
+            text-align: right;
+            font-size: 11px;
+            color: var(--text-dark);
+        }
+
+        .contact-info div {
+            margin-bottom: 4px;
+        }
+
+        .contact-info i {
+            color: var(--secondary);
+            margin-right: 5px;
+            width: 12px;
+        }
+
+        .contact-info a {
+            color: var(--text-dark);
+            text-decoration: none;
+        }
+
+        /* Content Grid */
+        .content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            color: var(--primary);
+            text-transform: uppercase;
+            font-weight: 700;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Experience & Projects */
+        .item {
+            margin-bottom: 15px;
+            page-break-inside: avoid;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3px;
+            align-items: baseline;
+        }
+
+        .item-title {
+            font-weight: 700;
+            font-size: 13px;
+            color: #000;
+        }
+
+        .item-subtitle {
+            font-weight: 600;
+            font-size: 12px;
+            color: var(--secondary);
+        }
+
+        .item-date {
+            font-size: 11px;
+            color: var(--text-light);
+            font-style: italic;
+            white-space: nowrap;
+        }
+
+        .item-desc {
+            font-size: 11px;
+            color: #444;
+            text-align: justify;
+        }
+
+        .item-desc ul {
+            padding-left: 15px;
+            margin-top: 5px;
+        }
+
+        .item-desc li {
+            margin-bottom: 2px;
+        }
+
+        .project-links-print {
+            display: inline-flex;
+            gap: 8px;
+        }
+
+        /* Skills Tags */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .skill-tag {
+            background: #efefef;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: 500;
+            color: #333;
+        }
+
+        /* Print Controls */
+        .print-controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .btn {
+            background: var(--secondary);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .page {
+                box-shadow: none;
+                padding: 30px;
+                width: 100%;
+                min-height: auto;
+            }
+
+            .print-controls {
+                display: none;
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="print-controls">
+        <button onclick="window.print()" class="btn">
+            <i class="fas fa-file-pdf"></i> Download PDF
+        </button>
+        <a href="index.html" class="btn" style="background: #666;">
+            <i class="fas fa-arrow-left"></i> Back to Portfolio
+        </a>
+    </div>
+
+    <div class="page" id="resume-page">
+        <header>
+            <div class="header-left">
+                <h1>Hemrajsinh Suratiya</h1>
+                <h2>Full Stack Developer (.NET + Angular)</h2>
+            </div>
+            <div class="contact-info">
+                <div><a href="mailto:suratiyahemrajsinh02@gmail.com"><i class="fas fa-envelope"></i>
+                        suratiyahemrajsinh02@gmail.com</a></div>
+                <div><a href="tel:+916354269462"><i class="fas fa-phone"></i> +91 6354269462</a></div>
+                <div><a href="https://hemrajsinh-portfolio.vercel.app" target="_blank"><i class="fas fa-globe"></i>
+                        hemrajsinh-portfolio.vercel.app</a></div>
+                <div><a href="https://www.linkedin.com/in/hemrajsinh-suratiya-68563a227" target="_blank"><i
+                            class="fab fa-linkedin"></i> linkedin.com/in/hemrajsinh</a></div>
+                <div><a href="https://github.com/HEMRAJ2907" target="_blank"><i class="fab fa-github"></i>
+                        github.com/HEMRAJ2907</a></div>
+                <div><i class="fas fa-map-marker-alt"></i> Vadodara, Gujarat, India</div>
+            </div>
+        </header>
+
+        <div class="content">
+            <!-- Left Column: Experience & Projects -->
+            <div class="column-left">
+
+                <!-- Summary -->
+                <div class="section">
+                    <p style="font-size: 11px; text-align: justify; color: #444;">
+                        Results-driven <b>Full Stack Developer</b> with 1+ years of experience in building scalable web
+                        applications using <b>.NET Core, Angular, and SQL Server</b>. Passionate about Clean
+                        Architecture, Microservices, and Cloud Integration. Prioritizing efficiency and user-centric
+                        design in every project.
+                    </p>
+                </div>
+
+                <!-- Experience -->
+                <div class="section">
+                    <div class="section-title">Professional Experience</div>
+                    <div id="experience-list">
+                        <div style="font-size: 10px; color: #666;">Loading experience...</div>
+                    </div>
+                </div>
+
+                <!-- Projects -->
+                <div class="section">
+                    <div class="section-title">Key Projects</div>
+                    <div id="projects-list">
+                        <div style="font-size: 10px; color: #666;">Loading projects...</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Right Column: Skills, Education, Certs -->
+            <div class="column-right">
+
+                <!-- Skills -->
+                <div class="section">
+                    <div class="section-title">Technical Skills</div>
+
+                    <div class="item">
+                        <div class="item-subtitle" style="margin-bottom: 5px;">Backend</div>
+                        <div class="skills-container">
+                            <span class="skill-tag">.NET Core 8</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">Web API</span>
+                            <span class="skill-tag">Microservices</span>
+                            <span class="skill-tag">Clean Architecture</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">EF Core</span>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-subtitle" style="margin-bottom: 5px;">Frontend</div>
+                        <div class="skills-container">
+                            <span class="skill-tag">Angular 17</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">RXJS</span>
+                            <span class="skill-tag">HTML5/CSS3</span>
+                            <span class="skill-tag">React.js</span>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-subtitle" style="margin-bottom: 5px;">Database & Cloud</div>
+                        <div class="skills-container">
+                            <span class="skill-tag">SQL Server</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Azure</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Redis</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-subtitle" style="margin-bottom: 5px;">Tools</div>
+                        <div class="skills-container">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Postman</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Visual Studio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="section">
+                    <div class="section-title">Education</div>
+                    <div class="item">
+                        <div class="item-title">B.Tech Computer Science</div>
+                        <div class="item-subtitle">Sardar Vallabhbhai Patel Institute</div>
+                        <div class="item-date">2021 - 2025 | CGPA: 8.73</div>
+                    </div>
+                    <div class="item">
+                        <div class="item-title">HSC (Science)</div>
+                        <div class="item-subtitle">Shree Narayan Vidhyalay</div>
+                        <div class="item-date">2021 | Score: 89%</div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="section">
+                    <div class="section-title">Certifications</div>
+
+                    <div class="item">
+                        <div class="item-title">Rise for Fullstack</div>
+                        <div class="item-desc">.NET + Angular Dev</div>
+                        <a href="https://drive.google.com/file/d/1BB-4lO_YiLn9Zc-A-YmX7EdzuiBbE5Xm/view?usp=drivesdk"
+                            target="_blank" style="font-size: 10px; color: var(--secondary);">View Certificate</a>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-title">ASP.NET Core</div>
+                        <div class="item-desc">Comprehensive Course</div>
+                        <a href="https://drive.google.com/file/d/11zEuNjgKRqWpXATeWG-Gp1LwEKLJL5Xf/view?usp=drivesdk"
+                            target="_blank" style="font-size: 10px; color: var(--secondary);">View Certificate</a>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-title">Microservices .NET 8</div>
+                        <a href="https://drive.google.com/file/d/10VvSCypwApRc-0yirc-ZVX9la0cf5Hpo/view?usp=drivesdk"
+                            target="_blank" style="font-size: 10px; color: var(--secondary);">View Certificate</a>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-title">Azure Fundamentals (AZ-900)</div>
+                        <a href="https://drive.google.com/file/d/128-4lO_YiLn9Zc-A-YmX7EdzuiBbE5Xm/view?usp=drivesdk"
+                            target="_blank" style="font-size: 10px; color: var(--secondary);">View Certificate</a>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-title">Generative AI</div>
+                        <a href="https://drive.google.com/file/d/138-4lO_YiLn9Zc-A-YmX7EdzuiBbE5Xm/view?usp=drivesdk"
+                            target="_blank" style="font-size: 10px; color: var(--secondary);">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div class="section">
+                    <div class="section-title">Languages</div>
+                    <div class="skills-container">
+                        <span class="skill-tag">English</span>
+                        <span class="skill-tag">Hindi</span>
+                        <span class="skill-tag">Gujarati</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            await Promise.all([loadExperience(), loadProjects()]);
+        });
+
+        async function loadExperience() {
+            try {
+                const res = await fetch('/api/experience');
+                const data = await res.json();
+
+                if (data.success && data.experiences) {
+                    renderExperience(data.experiences);
+                }
+            } catch (err) {
+                console.error('Failed to load experience', err);
+                document.getElementById('experience-list').innerHTML = '<div class="item-desc">Failed to load experience data.</div>';
+            }
+        }
+
+        async function loadProjects() {
+            try {
+                const res = await fetch('/api/projects');
+                const data = await res.json();
+
+                if (data.success && data.projects) {
+                    renderProjects(data.projects);
+                }
+            } catch (err) {
+                console.error('Failed to load projects', err);
+                document.getElementById('projects-list').innerHTML = '<div class="item-desc">Failed to load projects data.</div>';
+            }
+        }
+
+        function renderExperience(experiences) {
+            const container = document.getElementById('experience-list');
+            if (!experiences || experiences.length === 0) {
+                container.innerHTML = '<div class="item-desc">No experience found.</div>';
+                return;
+            }
+
+            const html = experiences.map(exp => {
+                const startDate = new Date(exp.startDate).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+                const endDate = exp.current ? 'Present' : new Date(exp.endDate).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+
+                let responsibilities = '';
+                if (Array.isArray(exp.responsibilities) && exp.responsibilities.length > 0) {
+                    // Limit to top 3 responsibilities for resume compactness if needed, or show all. User asked for "all details".
+                    // I will show all but ensure list styling is compact.
+                    responsibilities = '<ul>' + exp.responsibilities.map(r => `<li>${r}</li>`).join('') + '</ul>';
+                }
+
+                return `
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">${exp.position}</span>
+                            <span class="item-date">${startDate} - ${endDate}</span>
+                        </div>
+                        <div class="item-subtitle">${exp.company}</div>
+                        <div class="item-desc">
+                            ${exp.description ? `<p>${exp.description}</p>` : ''}
+                            ${responsibilities}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            container.innerHTML = html;
+        }
+
+        function renderProjects(projects) {
+            const container = document.getElementById('projects-list');
+            if (!projects || projects.length === 0) {
+                container.innerHTML = '<div class="item-desc">No projects found.</div>';
+                return;
+            }
+
+            // User said "all projects".
+            const html = projects.map(proj => {
+                // Shorten description for resume if it's huge HTML? 
+                // We'll strip HTML tags and take first 200 chars if description is long, OR use shortDescription.
+                // Actually, full description might be too long. `shortDescription` is preferred.
+                const descText = proj.shortDescription || (proj.description ? proj.description.replace(/<[^>]*>?/gm, '').substring(0, 180) + '...' : '');
+
+                return `
+                    <div class="item">
+                        <div class="item-header">
+                            <span class="item-title">${proj.title}</span>
+                             <div class="project-links-print">
+                                ${proj.liveUrl && proj.liveUrl !== '#' ? `<a href="${proj.liveUrl}" target="_blank" style="font-size: 10px; color: var(--secondary); margin-left:5px;"><i class="fas fa-external-link-alt"></i> Live</a>` : ''}
+                                ${proj.githubUrl && proj.githubUrl !== '#' ? `<a href="${proj.githubUrl}" target="_blank" style="font-size: 10px; color: var(--secondary); margin-left:5px;"><i class="fab fa-github"></i> Code</a>` : ''}
+                            </div>
+                        </div>
+                        <div class="item-desc">
+                            ${descText}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            container.innerHTML = html;
+        }
+    </script>
+</body>
+
+</html>

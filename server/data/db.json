@@ -1,0 +1,623 @@
+{
+  "visitors": [
+    {
+      "_id": "96402c87-1f6c-4c73-a918-7f5fd1f2d423",
+      "sessionId": "v_1768713530573_m0gjaiv6x",
+      "ip": "::1",
+      "browser": "Chrome 143.0.0.0",
+      "os": "Windows 10",
+      "device": "Desktop",
+      "referrer": "Direct",
+      "pagesVisited": [
+        {
+          "page": "index.html",
+          "timestamp": "2026-01-18T05:18:50.790Z"
+        },
+        {
+          "page": "experience.html",
+          "timestamp": "2026-01-18T05:18:53.799Z"
+        },
+        {
+          "page": "contact.html",
+          "timestamp": "2026-01-18T05:19:13.284Z"
+        },
+        {
+          "page": "projects.html",
+          "timestamp": "2026-01-18T05:19:18.249Z"
+        },
+        {
+          "page": "about.html",
+          "timestamp": "2026-01-18T05:19:21.750Z"
+        },
+        {
+          "page": "index.html",
+          "timestamp": "2026-01-18T05:19:26.474Z"
+        },
+        {
+          "page": "contact.html",
+          "timestamp": "2026-01-18T05:19:33.889Z"
+        }
+      ],
+      "visitCount": 7,
+      "firstVisit": "2026-01-18T05:18:50.790Z",
+      "lastVisit": "2026-01-18T05:19:33.889Z",
+      "totalTimeSpent": 0
+    },
+    {
+      "_id": "687079de-a4f9-406e-9be6-9fd31e860fbc",
+      "sessionId": "v_1768713189225_ey1qo0nm7",
+      "ip": "::1",
+      "browser": "Chrome 143.0.0.0",
+      "os": "Windows 10",
+      "device": "Desktop",
+      "referrer": "Direct",
+      "pagesVisited": [
+        {
+          "page": "index.html",
+          "timestamp": "2026-01-18T05:13:09.225Z"
+        },
+        {
+          "page": "projects.html",
+          "timestamp": "2026-01-18T05:13:11.608Z"
+        },
+        {
+          "page": "experience.html",
+          "timestamp": "2026-01-18T05:14:29.479Z"
+        },
+        {
+          "page": "projects.html",
+          "timestamp": "2026-01-18T05:14:42.678Z"
+        },
+        {
+          "page": "about.html",
+          "timestamp": "2026-01-18T05:14:44.885Z"
+        }
+      ],
+      "visitCount": 5,
+      "firstVisit": "2026-01-18T05:13:09.225Z",
+      "lastVisit": "2026-01-18T05:14:44.885Z",
+      "totalTimeSpent": 930
+    },
+    {
+      "_id": "4f96596b-9ca5-4cb8-b405-3d900b95bef0",
+      "sessionId": "v_1768711945917_rz9mmyyhq",
+      "ip": "::1",
+      "browser": "Chrome 143.0.0.0",
+      "os": "Windows 10",
+      "device": "Desktop",
+      "referrer": "Direct",
+      "pagesVisited": [
+        {
+          "page": "index.html",
+          "timestamp": "2026-01-18T04:52:25.950Z"
+        },
+        {
+          "page": "contact.html",
+          "timestamp": "2026-01-18T04:53:01.007Z"
+        },
+        {
+          "page": "experience.html",
+          "timestamp": "2026-01-18T04:53:07.499Z"
+        },
+        {
+          "page": "projects.html",
+          "timestamp": "2026-01-18T04:53:13.576Z"
+        },
+        {
+          "page": "about.html",
+          "timestamp": "2026-01-18T04:53:29.895Z"
+        },
+        {
+          "page": "about.html",
+          "timestamp": "2026-01-18T04:54:27.604Z"
+        },
+        {
+          "page": "about.html",
+          "timestamp": "2026-01-18T04:55:53.218Z"
+        },
+        {
+          "page": "projects.html",
+          "timestamp": "2026-01-18T04:56:10.660Z"
+        },
+        {
+          "page": "index.html",
+          "timestamp": "2026-01-18T04:56:16.330Z"
+        },
+        {
+          "page": "index.html",
+          "timestamp": "2026-01-18T04:57:38.363Z"
+        },
+        {
+          "page": "about.html",
+          "timestamp": "2026-01-18T04:57:44.458Z"
+        },
+        {
+          "page": "projects.html",
+          "timestamp": "2026-01-18T04:57:49.216Z"
+        },
+        {
+          "page": "experience.html",
+          "timestamp": "2026-01-18T04:57:53.662Z"
+        },
+        {
+          "page": "contact.html",
+          "timestamp": "2026-01-18T04:57:59.403Z"
+        },
+        {
+          "page": "experience.html",
+          "timestamp": "2026-01-18T04:58:03.606Z"
+        },
+        {
+          "page": "projects.html",
+          "timestamp": "2026-01-18T04:58:06.657Z"
+        },
+        {
+          "page": "about.html",
+          "timestamp": "2026-01-18T04:58:11.149Z"
+        },
+        {
+          "page": "index.html",
+          "timestamp": "2026-01-18T04:58:19.248Z"
+        },
+        {
+          "page": "about.html",
+          "timestamp": "2026-01-18T04:59:19.429Z"
+        },
+        {
+          "page": "projects.html",
+          "timestamp": "2026-01-18T04:59:21.253Z"
+        },
+        {
+          "page": "experience.html",
+          "timestamp": "2026-01-18T04:59:23.551Z"
+        },
+        {
+          "page": "contact.html",
+          "timestamp": "2026-01-18T04:59:25.848Z"
+        },
+        {
+          "page": "contact.html",
+          "timestamp": "2026-01-18T05:04:34.339Z"
+        },
+        {
+          "page": "about.html",
+          "timestamp": "2026-01-18T05:04:38.963Z"
+        },
+        {
+          "page": "index.html",
+          "timestamp": "2026-01-18T05:04:45.669Z"
+        }
+      ],
+      "visitCount": 25,
+      "firstVisit": "2026-01-18T04:52:25.950Z",
+      "lastVisit": "2026-01-18T05:04:45.669Z",
+      "totalTimeSpent": 1380
+    },
+    {
+      "_id": "972debf7-9ed9-44a7-8fd5-442672870d77",
+      "sessionId": "v_1768711358859_fua9i2fqi",
+      "ip": "::1",
+      "browser": "Chrome 143.0.0.0",
+      "os": "Windows 10",
+      "device": "Desktop",
+      "referrer": "Direct",
+      "pagesVisited": [
+        {
+          "page": "index.html",
+          "timestamp": "2026-01-18T04:42:39.243Z"
+        },
+        {
+          "page": "about.html",
+          "timestamp": "2026-01-18T04:42:44.680Z"
+        },
+        {
+          "page": "contact.html",
+          "timestamp": "2026-01-18T04:43:17.580Z"
+        }
+      ],
+      "visitCount": 3,
+      "firstVisit": "2026-01-18T04:42:39.243Z",
+      "lastVisit": "2026-01-18T04:43:17.580Z",
+      "totalTimeSpent": 1470
+    }
+  ],
+  "contacts": [],
+  "projects": [
+    {
+      "_id": "1",
+      "title": "Clean Architecture Framework",
+      "shortDescription": "Modular Monolith Architecture with plug-and-play modules, reducing project setup time by 40%",
+      "description": "\n                <p><strong>R&D Internal Project</strong> - An enterprise-grade framework built to standardize and accelerate development across teams.</p>\n                \n                <h5>🎯 Key Achievements</h5>\n                <ul>\n                    <li>Designed and implemented <strong>Modular Monolith Architecture</strong> based on Clean Architecture principles</li>\n                    <li>Enabled <strong>plug-and-play feature modules</strong>, reducing project setup time by <strong>40%</strong></li>\n                    <li>Contributed to <strong>14 out of 47</strong> planned feature modules within R&D timelines</li>\n                </ul>\n                \n                <h5>🛠️ Technical Implementation</h5>\n                <ul>\n                    <li>Built a <strong>generic CRUD framework</strong> for any entity or data model, minimizing repetitive code</li>\n                    <li>Implemented <strong>JWT-based authentication</strong> and role-based authorization</li>\n                    <li>Integrated <strong>.NET Core Identity</strong> and <strong>MSAL</strong> for secure, scalable access control</li>\n                    <li>Designed RESTful APIs following industry best practices</li>\n                </ul>\n                \n                <h5>📈 Impact</h5>\n                <ul>\n                    <li>Accelerated development speed across multiple teams</li>\n                    <li>Reduced boilerplate code by implementing reusable patterns</li>\n                    <li>Improved security with enterprise-grade authentication</li>\n                </ul>\n            ",
+      "category": "backend",
+      "technologies": [
+        ".NET Core",
+        "Clean Architecture",
+        "JWT",
+        "MSAL",
+        "Entity Framework",
+        "SQL Server",
+        "REST API",
+        "C#"
+      ],
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/HEMRAJ2907",
+      "featured": true,
+      "status": "completed",
+      "keywords": [
+        "Clean Architecture",
+        "Modular Monolith",
+        "CRUD Framework",
+        "JWT Authentication",
+        "Role-Based Authorization",
+        ".NET Core Identity",
+        "Enterprise Architecture",
+        "R&D Project"
+      ]
+    },
+    {
+      "_id": "2",
+      "title": "Admin 360",
+      "shortDescription": "Enterprise admin platform with Azure AD SSO + API optimization achieving 95% performance improvement",
+      "description": "\n                <p><strong>Internal Project</strong> - A comprehensive enterprise administration platform managing 24+ microservices with centralized identity management and optimized performance.</p>\n                \n                <h5>🔐 Authentication & Security</h5>\n                <ul>\n                    <li>Migrated authentication from <strong>Intra ID to Microsoft Azure AD (MSAL)</strong></li>\n                    <li>Implemented <strong>unified SSO</strong> and centralized identity management</li>\n                    <li>Enhanced security across all microservices with enterprise-grade authentication</li>\n                </ul>\n                \n                <h5>⚡ Performance Optimization</h5>\n                <ul>\n                    <li>Optimized internal invoice API performance from <strong>30-40s → 1-2s</strong> (95%+ improvement)</li>\n                    <li>Refactored data access from <strong>EF Core to Stored Procedures and Dapper</strong></li>\n                    <li>Participated in <strong>database tuning</strong> and code optimization sessions</li>\n                    <li>Identified query bottlenecks and improved overall throughput</li>\n                </ul>\n                \n                <h5>🔧 System Enhancements</h5>\n                <ul>\n                    <li>Implemented <strong>automated scheduler jobs</strong> in Facility Management System (FMS)</li>\n                    <li>Built daily automated deallocation for inactive employees</li>\n                    <li>Enhanced performance across <strong>24+ microservices</strong></li>\n                    <li>Improved scalability and response times across the platform</li>\n                </ul>\n                \n                <h5>👥 Team Collaboration</h5>\n                <ul>\n                    <li>Worked under guidance of <strong>HOD Pradip Sir</strong></li>\n                    <li>Handled service-level enhancements and cross-module integrations</li>\n                    <li>Participated in code reviews and optimization sessions</li>\n                </ul>\n            ",
+      "category": "fullstack",
+      "technologies": [
+        "Azure AD",
+        "MSAL",
+        ".NET Core",
+        "Dapper",
+        "SQL Server",
+        "Stored Procedures",
+        "Microservices",
+        "Scheduler Jobs"
+      ],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/HEMRAJ2907",
+      "featured": true,
+      "status": "completed",
+      "keywords": [
+        "Azure AD",
+        "SSO",
+        "API Optimization",
+        "Microservices",
+        "Dapper",
+        "Performance Tuning",
+        "Enterprise Admin",
+        "FMS"
+      ]
+    },
+    {
+      "_id": "3",
+      "title": "Rtalent",
+      "shortDescription": "Internal talent management platform serving 800-1,200 employees with auto-resume generation",
+      "description": "\n                <p><strong>Internal Project</strong> - A comprehensive talent management platform enabling employees to manage skills, certifications, education, and project history efficiently.</p>\n                \n                <h5>👥 Platform Overview</h5>\n                <ul>\n                    <li>Developed and enhanced core modules for <strong>Rtalent</strong> talent management platform</li>\n                    <li>Platform used by <strong>800-1,200 employees</strong> across the organization</li>\n                    <li>Enabled management of skills, certifications, education, and project history</li>\n                </ul>\n                \n                <h5>📄 Auto-Resume Generation</h5>\n                <ul>\n                    <li>Implemented <strong>auto-resume generation</strong> feature from employee profiles</li>\n                    <li>Reduced manual resume creation effort by <strong>60-70%</strong></li>\n                    <li>Improved <strong>data accuracy</strong> across employee profiles</li>\n                    <li>Streamlined resume formatting with consistent templates</li>\n                </ul>\n                \n                <h5>🤝 Stakeholder Collaboration</h5>\n                <ul>\n                    <li>Partnered with <strong>HR and leadership teams</strong> for requirements gathering</li>\n                    <li>Aligned technical solutions with talent development goals</li>\n                    <li>Improved feature usability and adoption rates</li>\n                    <li>Gathered feedback for continuous improvement</li>\n                </ul>\n                \n                <h5>📈 Impact</h5>\n                <ul>\n                    <li>Enhanced employee profile management experience</li>\n                    <li>Reduced administrative overhead for HR teams</li>\n                    <li>Improved talent tracking and skill gap analysis</li>\n                </ul>\n            ",
+      "category": "fullstack",
+      "technologies": [
+        ".NET Core",
+        "Angular",
+        "SQL Server",
+        "Entity Framework",
+        "REST API",
+        "PDF Generation",
+        "Bootstrap"
+      ],
+      "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/HEMRAJ2907",
+      "featured": true,
+      "status": "completed",
+      "keywords": [
+        "Talent Management",
+        "HR Tech",
+        "Auto-Resume",
+        "Employee Portal",
+        "Skills Management",
+        "Certification Tracking",
+        "Profile Management"
+      ]
+    },
+    {
+      "_id": "4",
+      "title": "Reflection",
+      "shortDescription": "Performance feedback and review system with structured employee-manager evaluations",
+      "description": "\n                <p><strong>Internal Project</strong> - A comprehensive performance feedback and review system enabling structured employee-to-manager evaluations across multiple departments and teams.</p>\n                \n                <h5>🎯 Core Development</h5>\n                <ul>\n                    <li>Developed <strong>key functional modules</strong> for Reflection performance feedback system</li>\n                    <li>Enabled structured <strong>employee-to-manager evaluations</strong> across departments</li>\n                    <li>Built scalable and maintainable backend and frontend components</li>\n                </ul>\n                \n                <h5>📋 Standardization & Process Improvement</h5>\n                <ul>\n                    <li>Standardized <strong>feedback formats</strong> and evaluation criteria</li>\n                    <li>Reduced review inconsistencies and manual follow-ups by <strong>25%</strong></li>\n                    <li>Implemented consistent evaluation templates across teams</li>\n                    <li>Streamlined the review workflow process</li>\n                </ul>\n                \n                <h5>🤝 Stakeholder Collaboration</h5>\n                <ul>\n                    <li>Worked closely with <strong>managers and HR stakeholders</strong></li>\n                    <li>Translated performance management requirements into technical solutions</li>\n                    <li>Gathered feedback for continuous system improvement</li>\n                    <li>Ensured alignment with organizational evaluation goals</li>\n                </ul>\n                \n                <h5>📈 Impact</h5>\n                <ul>\n                    <li>Improved consistency in performance evaluations</li>\n                    <li>Reduced administrative burden on HR teams</li>\n                    <li>Enhanced transparency in the feedback process</li>\n                </ul>\n            ",
+      "category": "fullstack",
+      "technologies": [
+        ".NET Core",
+        "Angular",
+        "SQL Server",
+        "Entity Framework",
+        "REST API",
+        "Bootstrap",
+        "C#"
+      ],
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/HEMRAJ2907",
+      "featured": true,
+      "status": "completed",
+      "keywords": [
+        "Performance Management",
+        "Feedback System",
+        "Employee Evaluation",
+        "HR Tech",
+        "Review System",
+        "Manager Tools",
+        "Appraisal"
+      ]
+    },
+    {
+      "_id": "5",
+      "title": "EMS - Employee Management System",
+      "shortDescription": "Comprehensive employee lifecycle management from onboarding to resignation with cross-app integration",
+      "description": "\n                <p><strong>Internal Project</strong> - A modern, full-featured Employee Management System handling the complete employee lifecycle from onboarding to exit, with seamless integration to other internal applications.</p>\n                \n                <h5>👤 Employee Lifecycle Management</h5>\n                <ul>\n                    <li>Automated <strong>employee onboarding</strong> workflow with document collection</li>\n                    <li>Complete <strong>resignation/exit management</strong> with clearance tracking</li>\n                    <li>Employee <strong>transfer and promotion</strong> management</li>\n                    <li>Probation tracking and confirmation workflows</li>\n                    <li>Employee status management (Active, On Leave, Resigned, Terminated)</li>\n                </ul>\n                \n                <h5>📋 Master Data Management</h5>\n                <ul>\n                    <li><strong>Department Master</strong> - Organizational hierarchy management</li>\n                    <li><strong>Designation Master</strong> - Role and position definitions</li>\n                    <li><strong>Location Master</strong> - Office and branch management</li>\n                    <li><strong>Shift Master</strong> - Work schedule configurations</li>\n                    <li><strong>Holiday Master</strong> - Leave calendar management</li>\n                    <li><strong>Document Type Master</strong> - Employee document categorization</li>\n                </ul>\n                \n                <h5>📊 Core HR Features</h5>\n                <ul>\n                    <li>Employee <strong>personal information</strong> and contact details</li>\n                    <li><strong>Educational qualifications</strong> and certifications tracking</li>\n                    <li><strong>Work experience</strong> and employment history</li>\n                    <li><strong>Bank details</strong> and salary information</li>\n                    <li><strong>Emergency contacts</strong> and family information</li>\n                    <li><strong>Document management</strong> with secure storage</li>\n                </ul>\n                \n                <h5>🔗 System Integration</h5>\n                <ul>\n                    <li>Real-time <strong>data sync with other internal applications</strong></li>\n                    <li>API-based integration for cross-system communication</li>\n                    <li>Automated notifications and alerts</li>\n                    <li>Centralized employee data as single source of truth</li>\n                </ul>\n                \n                <h5>📈 Reporting & Analytics</h5>\n                <ul>\n                    <li>Employee headcount and attrition reports</li>\n                    <li>Department-wise workforce analytics</li>\n                    <li>Joining and exit trend analysis</li>\n                    <li>Custom report generation</li>\n                </ul>\n            ",
+      "category": "fullstack",
+      "technologies": [
+        ".NET Core",
+        "Angular",
+        "SQL Server",
+        "Entity Framework",
+        "REST API",
+        "Bootstrap",
+        "SignalR",
+        "Background Jobs"
+      ],
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/HEMRAJ2907",
+      "featured": true,
+      "status": "completed",
+      "keywords": [
+        "Employee Management",
+        "HRMS",
+        "Onboarding",
+        "Exit Management",
+        "Master Data",
+        "HR Automation",
+        "Workforce Management",
+        "API Integration"
+      ]
+    },
+    {
+      "_id": "6",
+      "title": "DOOHIT - Digital Out-of-Home Platform",
+      "shortDescription": "Advertisement platform connecting media buyers and owners for virtual billboard visualization",
+      "description": "\n                <p><strong>Client Project</strong> - An innovative Digital Out-of-Home (DOOH) advertising platform that bridges the gap between media buyers and media owners, enabling virtual visualization of advertisements on billboards and hoardings.</p>\n                \n                <h5>🎯 Platform Overview</h5>\n                <ul>\n                    <li>Connects <strong>media buyers</strong> (advertisers) with <strong>media owners</strong> (billboard operators)</li>\n                    <li>Enables <strong>virtual advertisement visualization</strong> on billboards before purchase</li>\n                    <li>Streamlines the outdoor advertising booking process</li>\n                    <li>Platform for managing digital and traditional out-of-home advertising</li>\n                </ul>\n                \n                <h5>👁️ Virtual Visualization Features</h5>\n                <ul>\n                    <li><strong>Real-time ad preview</strong> on virtual billboards/hoardings</li>\n                    <li>Upload and visualize advertisement creatives</li>\n                    <li>View ads in context with <strong>actual billboard locations</strong></li>\n                    <li>Multiple format support for various billboard sizes</li>\n                    <li>Before/after visualization comparison</li>\n                </ul>\n                \n                <h5>📊 Media Owner Features</h5>\n                <ul>\n                    <li><strong>Inventory management</strong> for billboard locations</li>\n                    <li>Availability calendar and booking management</li>\n                    <li>Pricing and package configuration</li>\n                    <li>Analytics on billboard impressions and engagement</li>\n                    <li>Revenue tracking and reporting</li>\n                </ul>\n                \n                <h5>🛒 Media Buyer Features</h5>\n                <ul>\n                    <li><strong>Search and discover</strong> billboard locations</li>\n                    <li>Filter by location, size, traffic, and demographics</li>\n                    <li>Campaign planning and scheduling</li>\n                    <li>Budget management and cost estimation</li>\n                    <li>Order tracking and invoice management</li>\n                </ul>\n                \n                <h5>📈 Business Impact</h5>\n                <ul>\n                    <li>Reduced decision-making time for advertisers</li>\n                    <li>Increased booking conversions through visualization</li>\n                    <li>Streamlined communication between buyers and owners</li>\n                    <li>Centralized platform for outdoor advertising management</li>\n                </ul>\n            ",
+      "category": "fullstack",
+      "technologies": [
+        ".NET Core",
+        "Angular",
+        "SQL Server",
+        "Azure",
+        "REST API",
+        "Image Processing",
+        "Google Maps API",
+        "Payment Gateway"
+      ],
+      "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/HEMRAJ2907",
+      "featured": true,
+      "status": "completed",
+      "keywords": [
+        "DOOH",
+        "Digital Advertising",
+        "Billboard",
+        "Media Buying",
+        "Out-of-Home",
+        "Ad Tech",
+        "Visualization",
+        "Client Project"
+      ]
+    },
+    {
+      "_id": "7",
+      "title": "Guest House Management System",
+      "shortDescription": "Real-time room booking system for employees with conflict validation and optimized availability checking",
+      "description": "\n                <p><strong>Internal Project</strong> - A comprehensive Guest House Management System enabling employees to book accommodations with real-time availability checking and intelligent conflict prevention.</p>\n                \n                <h5>🏨 Real-Time Booking System</h5>\n                <ul>\n                    <li><strong>Live room availability</strong> with instant status updates</li>\n                    <li>Real-time booking confirmation and notifications</li>\n                    <li>Interactive calendar view for date selection</li>\n                    <li>Quick booking workflow for employee convenience</li>\n                    <li>Booking modification and cancellation support</li>\n                </ul>\n                \n                <h5>🔒 Conflict Validation & Prevention</h5>\n                <ul>\n                    <li><strong>Double-booking prevention</strong> - Two employees cannot book same room at same time</li>\n                    <li>Real-time validation during booking process</li>\n                    <li>Optimistic locking to handle concurrent booking attempts</li>\n                    <li>Automatic conflict detection and user notification</li>\n                    <li>Race condition handling for simultaneous requests</li>\n                </ul>\n                \n                <h5>🏠 Room & Facility Management</h5>\n                <ul>\n                    <li><strong>Room inventory</strong> with categories (Single, Double, Suite)</li>\n                    <li>Room amenities and facility details</li>\n                    <li>Maintenance scheduling and room blocking</li>\n                    <li>Guest house location and branch management</li>\n                    <li>Room capacity and pricing configuration</li>\n                </ul>\n                \n                <h5>👤 Employee Booking Features</h5>\n                <ul>\n                    <li>Employee authentication and profile integration</li>\n                    <li><strong>Booking history</strong> and upcoming reservations</li>\n                    <li>Check-in and check-out management</li>\n                    <li>Guest details for accompanying visitors</li>\n                    <li>Approval workflow for extended stays</li>\n                </ul>\n                \n                <h5>⚡ Performance & Optimization</h5>\n                <ul>\n                    <li>Optimized queries for availability checking</li>\n                    <li>Cached room availability for faster response</li>\n                    <li>Efficient date range overlap detection</li>\n                    <li>Database indexing for booking searches</li>\n                </ul>\n                \n                <h5>📊 Admin & Reporting</h5>\n                <ul>\n                    <li>Occupancy reports and analytics</li>\n                    <li>Booking trends and utilization statistics</li>\n                    <li>Employee-wise booking reports</li>\n                    <li>Revenue and cost tracking</li>\n                </ul>\n            ",
+      "category": "fullstack",
+      "technologies": [
+        ".NET Core",
+        "Angular",
+        "SQL Server",
+        "Entity Framework",
+        "SignalR",
+        "REST API",
+        "Bootstrap",
+        "Caching"
+      ],
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/HEMRAJ2907",
+      "featured": true,
+      "status": "completed",
+      "keywords": [
+        "Guest House",
+        "Room Booking",
+        "Real-Time",
+        "Conflict Validation",
+        "Employee Portal",
+        "Hospitality",
+        "Reservation System",
+        "Accommodation"
+      ]
+    },
+    {
+      "_id": "8",
+      "title": "Inventory Management System",
+      "shortDescription": "Full-featured IMS with CRUD operations, real-time activity logs, and low stock alerts",
+      "description": "\n                <p><strong>Personal Project</strong> - A comprehensive Inventory Management System built from scratch with full CRUD functionality, real-time activity logging, and intelligent stock monitoring with alerts.</p>\n                \n                <h5>📦 Inventory CRUD Operations</h5>\n                <ul>\n                    <li><strong>Add Items</strong> - Create new inventory items with details</li>\n                    <li><strong>Update Items</strong> - Modify item information, quantity, and pricing</li>\n                    <li><strong>Delete Items</strong> - Remove items with confirmation</li>\n                    <li>Bulk operations for efficient inventory management</li>\n                    <li>Item categorization and organization</li>\n                </ul>\n                \n                <h5>📋 Real-Time Activity Logs</h5>\n                <ul>\n                    <li><strong>Dedicated logs box</strong> displaying all system activities</li>\n                    <li>Track all add, update, and delete operations</li>\n                    <li>Timestamp and user information for each action</li>\n                    <li>Complete audit trail of inventory changes</li>\n                    <li>Filterable and searchable log history</li>\n                </ul>\n                \n                <h5>⚠️ Low Stock Alerts</h5>\n                <ul>\n                    <li><strong>Automatic low stock detection</strong> based on threshold</li>\n                    <li>Visual alert messages for items below minimum quantity</li>\n                    <li>Configurable stock threshold per item</li>\n                    <li>Dashboard highlighting items needing restock</li>\n                    <li>Priority-based stock warnings</li>\n                </ul>\n                \n                <h5>📊 Dashboard & Analytics</h5>\n                <ul>\n                    <li>Overview of total inventory value</li>\n                    <li>Stock level visualization with charts</li>\n                    <li>Category-wise inventory breakdown</li>\n                    <li>Recent activity summary</li>\n                    <li>Quick access to common operations</li>\n                </ul>\n                \n                <h5>🔧 Technical Features</h5>\n                <ul>\n                    <li>RESTful API backend with .NET Core</li>\n                    <li>Angular frontend with responsive design</li>\n                    <li>Clean separation of frontend and backend</li>\n                    <li>Database persistence with Entity Framework</li>\n                    <li>Input validation and error handling</li>\n                </ul>\n                \n                <h5>🔗 Source Code</h5>\n                <ul>\n                    <li><strong>Backend Repository:</strong> IMS_BE</li>\n                    <li><strong>Frontend Repository:</strong> IMS_FE</li>\n                    <li>Well-documented codebase</li>\n                    <li>Open source on GitHub</li>\n                </ul>\n            ",
+      "category": "fullstack",
+      "technologies": [
+        ".NET Core",
+        "Angular",
+        "SQL Server",
+        "Entity Framework",
+        "REST API",
+        "Bootstrap",
+        "TypeScript",
+        "C#"
+      ],
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/HEMRAJ2907/IMS_BE",
+      "githubUrlFrontend": "https://github.com/HEMRAJ2907/IMS_FE",
+      "featured": true,
+      "status": "completed",
+      "keywords": [
+        "Inventory Management",
+        "CRUD",
+        "Activity Logs",
+        "Stock Alerts",
+        "Personal Project",
+        "Full Stack",
+        "Angular",
+        ".NET Core"
+      ]
+    },
+    {
+      "_id": "9",
+      "title": "Gopal Herbals - Natural Wellness Website",
+      "shortDescription": "Modern React.js website for herbal products with AI-assisted development, deployed on Netlify",
+      "description": "\n                <p><strong>Personal Project (AI-Assisted)</strong> - A beautiful, modern website for Gopal Herbals showcasing natural herbal products and wellness solutions, built using React.js with AI assistance.</p>\n                \n                <h5>🌿 Website Overview</h5>\n                <ul>\n                    <li><strong>Gopal Herbals</strong> - Natural Healing & Wellness brand</li>\n                    <li>Premium natural herbal products showcase</li>\n                    <li>Modern, elegant design with nature-inspired aesthetics</li>\n                    <li>Responsive design for all devices</li>\n                </ul>\n                \n                <h5>🎨 Design Features</h5>\n                <ul>\n                    <li><strong>Beautiful UI/UX</strong> with modern typography (Outfit, Playfair Display)</li>\n                    <li>Nature-inspired color palette and imagery</li>\n                    <li>Smooth animations and transitions</li>\n                    <li>Clean and professional layout</li>\n                    <li>Mobile-first responsive design</li>\n                </ul>\n                \n                <h5>📦 Product Showcase</h5>\n                <ul>\n                    <li>Herbal shampoo and hair care products</li>\n                    <li>Natural wellness solutions</li>\n                    <li>Product descriptions and benefits</li>\n                    <li>Category-based product organization</li>\n                </ul>\n                \n                <h5>🛠️ Technical Implementation</h5>\n                <ul>\n                    <li>Built with <strong>React.js</strong> and <strong>Vite</strong> for fast performance</li>\n                    <li>Modern JavaScript/ES6+ features</li>\n                    <li>Component-based architecture</li>\n                    <li>Optimized build for production</li>\n                    <li>SEO-friendly meta tags</li>\n                </ul>\n                \n                <h5>🤖 AI-Assisted Development</h5>\n                <ul>\n                    <li>Developed with <strong>AI assistance</strong> for rapid prototyping</li>\n                    <li>AI-generated components and styling</li>\n                    <li>Efficient development workflow</li>\n                    <li>Modern best practices implementation</li>\n                </ul>\n                \n                <h5>🚀 Deployment</h5>\n                <ul>\n                    <li>Deployed on <strong>Netlify</strong> for fast global CDN</li>\n                    <li>Continuous deployment from repository</li>\n                    <li>SSL/HTTPS enabled</li>\n                    <li>Live and accessible worldwide</li>\n                </ul>\n            ",
+      "category": "frontend",
+      "technologies": [
+        "React.js",
+        "Vite",
+        "JavaScript",
+        "CSS3",
+        "HTML5",
+        "Netlify",
+        "AI Development"
+      ],
+      "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800",
+      "liveUrl": "https://ephemeral-sable-888455.netlify.app/",
+      "githubUrl": "https://github.com/HEMRAJ2907",
+      "featured": true,
+      "status": "completed",
+      "keywords": [
+        "React.js",
+        "Herbal Products",
+        "E-commerce",
+        "Netlify",
+        "AI Development",
+        "Frontend",
+        "Wellness Website",
+        "Vite"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "_id": "1",
+      "company": "Rishabh Software",
+      "position": "Full Stack Intern → Software Engineer Trainee",
+      "location": "Vadodara, Gujarat, India",
+      "type": "full-time",
+      "startDate": "2025-01-01T00:00:00.000Z",
+      "current": true,
+      "description": "<strong>1 Year 1 Month</strong> | Started as Full Stack Intern (Jan 2025 - Jun 2025), promoted to Software Engineer Trainee (Jul 2025 - Present). Working on enterprise-grade applications using .NET Core, Angular, and SQL Server.",
+      "responsibilities": [
+        "<strong>🚀 As Software Engineer Trainee (Jul 2025 - Present):</strong>",
+        "Designed and implemented Modular Monolith Architecture based on Clean Architecture principles",
+        "Enabled plug-and-play feature modules, reducing project setup time by 40%",
+        "Migrated authentication from Intra ID to Microsoft Azure AD (MSAL) for unified SSO",
+        "Optimized internal invoice API performance from 30-40s → 1-2s using Stored Procedures and Dapper",
+        "Enhanced performance across 24+ microservices in Admin 360 project",
+        "Developed core modules for Rtalent talent management platform (800-1,200 employees)",
+        "Built auto-resume generation feature, reducing manual effort by 60-70%",
+        "Developed Reflection, EMS, and worked on DOOHIT client project",
+        "<strong>🎓 As Full Stack Intern (Jan 2025 - Jun 2025):</strong>",
+        "Developed Guest House Management System with real-time room booking",
+        "Implemented double-booking prevention and conflict validation",
+        "Built responsive UI components using Angular and Bootstrap",
+        "Created RESTful APIs using ASP.NET Core Web API",
+        "Participated in Agile/Scrum development methodology"
+      ],
+      "achievements": [
+        "Promoted from Intern to Software Engineer Trainee",
+        "Reduced project setup time by 40% with modular architecture",
+        "Improved API performance by 95% (30-40s to 1-2s)",
+        "Contributed to 9+ enterprise projects"
+      ],
+      "technologies": [
+        "Angular",
+        "ASP.NET",
+        ".NET Core",
+        "C#",
+        "SQL Server",
+        "Azure AD",
+        "MSAL",
+        "Dapper",
+        "Entity Framework",
+        "Clean Architecture",
+        "Microservices",
+        "REST API"
+      ]
+    },
+    {
+      "_id": "2",
+      "company": "GTU IBM SkillBuild",
+      "position": "AI Intern",
+      "location": "Online (Remote)",
+      "type": "internship",
+      "startDate": "2025-07-01T00:00:00.000Z",
+      "endDate": "2025-07-31T00:00:00.000Z",
+      "current": false,
+      "description": "Completed a one-month online AI internship program focused on conversational AI and chatbot development.",
+      "responsibilities": [
+        "Developed \"Banking Bot\" implementing basic conversational AI logic",
+        "Learned fundamentals of Artificial Intelligence and Machine Learning",
+        "Implemented chatbot workflows using AI-based conversation patterns",
+        "Gained hands-on experience with AI development tools and frameworks",
+        "Completed IBM SkillBuild AI training modules and assessments"
+      ],
+      "achievements": [
+        "Successfully developed Banking Bot chatbot",
+        "Completed IBM SkillBuild AI certification"
+      ],
+      "technologies": [
+        "AI",
+        "Chatbot Development",
+        "Conversational AI",
+        "IBM Watson",
+        "Python",
+        "NLP"
+      ]
+    },
+    {
+      "_id": "3",
+      "company": "Arth Consultancy",
+      "position": "Web Developer Intern",
+      "location": "On-site",
+      "type": "internship",
+      "startDate": "2024-07-01T00:00:00.000Z",
+      "endDate": "2024-07-31T00:00:00.000Z",
+      "current": false,
+      "description": "Completed a one-month in-person internship focused on frontend web development, building responsive and user-friendly web interfaces.",
+      "responsibilities": [
+        "Built responsive UI webpages using HTML5 & CSS3",
+        "Developed mobile-first responsive layouts for various screen sizes",
+        "Implemented modern CSS techniques including Flexbox and Grid",
+        "Ensured cross-browser compatibility across major browsers",
+        "Collaborated with senior developers on real client projects",
+        "Followed web accessibility best practices and standards",
+        "Participated in code reviews and received mentorship"
+      ],
+      "achievements": [
+        "Successfully completed frontend development internship",
+        "Built responsive web pages for client projects"
+      ],
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "Responsive Design",
+        "Flexbox",
+        "CSS Grid",
+        "Bootstrap",
+        "JavaScript"
+      ]
+    }
+  ]
+}

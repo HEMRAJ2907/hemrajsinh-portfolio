@@ -1,0 +1,36 @@
+{
+  "name": "hemrajsinh-portfolio",
+  "version": "1.0.0",
+  "description": "Professional Portfolio Website with Backend & Analytics",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "client": "live-server public --port=3001",
+    "install-all": "npm install"
+  },
+  "keywords": [
+    "portfolio",
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "Hemrajsinh",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.0.3",
+    "nodemailer": "^6.9.7",
+    "serverless-http": "^4.0.0",
+    "ua-parser-js": "^1.0.37",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
