@@ -48,14 +48,18 @@ router.post('/', async (req, res) => {
         db.contacts.unshift(newContact); // Add to beginning of array
         writeDb(db);
 
-        // Send notification (Email + WhatsApp)
-        await sendNotification('new_contact', {
-            name,
-            email,
-            phone,
-            subject,
-            message
-        });
+        // Try to send notification (Email + WhatsApp) - Don't fail if this errors
+        try {
+            await sendNotification('new_contact', {
+                name,
+                email,
+                phone,
+                subject,
+                message
+            });
+        } catch (notifyError) {
+            console.log('⚠️ Notification failed (message still saved):', notifyError.message);
+        }
 
         console.log('\n📬 NEW CONTACT RECEIVED & SAVED:');
         console.log('------------------------');

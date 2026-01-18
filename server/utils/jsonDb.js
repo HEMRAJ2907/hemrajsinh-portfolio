@@ -191,10 +191,9 @@ const INITIAL_DATA = {
     ]
 };
 
-// Start with In-Memory data (populated by default)
-let inMemoryDb = { ...INITIAL_DATA };
-
 // Try to load from file on startup (if exists and readable)
+let inMemoryDb = JSON.parse(JSON.stringify(INITIAL_DATA)); // Deep clone
+
 try {
     // Ensure directory exists for eventual writes (local dev)
     const dir = path.dirname(DB_PATH);
@@ -205,16 +204,21 @@ try {
     if (fs.existsSync(DB_PATH)) {
         const fileData = fs.readFileSync(DB_PATH, 'utf8');
         const parsed = JSON.parse(fileData);
-        // Merge file data with initial structure to ensure all keys exist
-        inMemoryDb = { ...INITIAL_DATA, ...parsed };
+
+        // Smart merge: Use file data only if it has actual content, otherwise use INITIAL_DATA
+        inMemoryDb = {
+            visitors: (parsed.visitors && parsed.visitors.length > 0) ? parsed.visitors : INITIAL_DATA.visitors,
+            contacts: (parsed.contacts && parsed.contacts.length > 0) ? parsed.contacts : INITIAL_DATA.contacts,
+            projects: (parsed.projects && parsed.projects.length > 0) ? parsed.projects : INITIAL_DATA.projects,
+            experiences: (parsed.experiences && parsed.experiences.length > 0) ? parsed.experiences : INITIAL_DATA.experiences
+        };
         console.log('✅ Loaded database from file');
     } else {
         console.log('ℹ️ Database file not found, using In-Memory Initial Data');
-        // Optional: Try to write it initially (works on local, fails gracefully on Vercel)
-        writeDb(inMemoryDb);
     }
 } catch (error) {
     console.log('⚠️ Failed to load database, using In-Memory fallback:', error.message);
+    inMemoryDb = JSON.parse(JSON.stringify(INITIAL_DATA));
 }
 
 // Read DB
