@@ -76,7 +76,7 @@
       "visitCount": 5,
       "firstVisit": "2026-01-18T05:13:09.225Z",
       "lastVisit": "2026-01-18T05:14:44.885Z",
-      "totalTimeSpent": 1080
+      "totalTimeSpent": 2670
     },
     {
       "_id": "4f96596b-9ca5-4cb8-b405-3d900b95bef0",
@@ -191,7 +191,7 @@
       "visitCount": 25,
       "firstVisit": "2026-01-18T04:52:25.950Z",
       "lastVisit": "2026-01-18T05:04:45.669Z",
-      "totalTimeSpent": 1470
+      "totalTimeSpent": 2250
     },
     {
       "_id": "972debf7-9ed9-44a7-8fd5-442672870d77",
@@ -218,7 +218,7 @@
       "visitCount": 3,
       "firstVisit": "2026-01-18T04:42:39.243Z",
       "lastVisit": "2026-01-18T04:43:17.580Z",
-      "totalTimeSpent": 1560
+      "totalTimeSpent": 2340
     }
   ],
   "contacts": [],
