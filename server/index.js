@@ -35,8 +35,9 @@ app.use('/api/', limiter);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Serve static files
-app.use(express.static(path.join(__dirname, '../public')));
+// Serve static files - Use process.cwd() for Vercel compatibility
+const publicPath = path.join(process.cwd(), 'public');
+app.use(express.static(publicPath));
 
 // API Routes
 app.use('/api/visitors', visitorRoutes);
@@ -48,7 +49,7 @@ app.use('/api/admin', adminRoutes);
 
 // Serve frontend for all other routes
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html'));
+    res.sendFile(path.join(publicPath, 'index.html'));
 });
 
 // MongoDB Connection
